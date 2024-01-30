@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is html</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <!-- label  tag is use to touch to select  bar -->
+        <!-- inpuut tag is use to input name,number email -->
+        <!-- <hr>basically used for horizentaly line -->
+        <div><input type="text"name="Myname" id="name" ></div><br>
+        <label for="roll">Roll</label>
+         <div><input type="text" name="Mytext" id="roll" ></div><br>
+         <label for="email">Email</label>
+         <div><input type="email" name="myEmail" id="email"></div><br>
+         <label for="date">Date</label>
+         <div><input type="date" name="mydate" id="date"></div><br>
+         <div>
+             Gender Male<input type="radio" name="MyGender">Female<input type="radio" name="MyGender">Other<input type="radio" name="MyGender">
+            </div><br>
+            <label for="eligible">Are you eligible</label>
+            <div><input type="checkbox" name="myEligibility" id="eligible"></div><br>
+            <label for="age">Age</label>
+         <div><input type="number" name="MyAge" id="age" ></div><br>
+         <div>Write about yourself<br><textarea name="Mytext"  cols="80" rows="10"></textarea></div>
+         <div><label for="car">Car</label>
+         <select name="Mycar" id="car">
+            <option value="Hyn"> Hyundai</option>
+            <option value="mer" selected>Benz</option>
+         </select></div><br>
+         <div>Submit<input type="submit" name="Mysubmit" ></div><br>
+         <div>Reset<input type="reset" name="Myreset" ></div><br>
+
+    </form>
+</body>
+</html>
