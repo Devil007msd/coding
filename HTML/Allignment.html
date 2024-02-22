@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+    <style>
+        *{
+           box-sizing: border-box; 
+        }
+        .container{
+            background-color: aquamarine;
+        width: 900px;
+        border:dashed;
+        border-left-color: rgb(10, 150, 99);
+        border-right-color: rgb(222, 246, 5);
+        border-top-color: rgb(230, 8, 152);
+        border-bottom-color: rgb(158, 92, 13);
+        border-radius:33px ;
+        margin: 33px auto;
+        }
+        .item{
+           border: 3px solid aqua;
+           padding: 12px 3px;
+           margin: 12px 3px;
+           
+           background-color: rgb(190, 148, 148);
+        }
+        #fruit{
+float: left;
+width: 48%;
+        }
+        #computer{
+            float: right;
+            /* float basically use to box shift to left side */
+            width: 48%;
+        }
+        #laptop{
+            clear: left;
+            /* clear basically use to no overlap any box */
+           width: 100%;
+        }
+        #test{
+            text-align: center;
+        }
+        p,h1{
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+            
+            /* p tag is paragraph and h1 is this line paragraph .text align-size of paragraph.ex-left,rigght,center */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="test"><h3>Basic knowladge</h3></div>
+<div class="container">
+    <div id="fruit" class="item">
+        <h3>fruit</h3>
+        <p id="fruitpara" class="item">Fruits are the means by which flowering plants (also known as angiosperms) disseminate their seeds. Edible fruits in particular have long propagated using the movements of humans and other animals in a symbiotic relationship that is the means for seed dispersal for the one group and nutrition for the other</p>
+    </div>
+    <div id="computer" class="item">
+        <h3>computer</h3>
+        <p id="computerpara" class="para">Computer is a electronic device that's can be used to solve big problem inn milli second.their are two components of computer one is hardware and another is software.chales babage is the father of computer.</p>
+    </div>
+    <div id="laptop" class="item">
+        <h3>laptop</h3>
+        <p id="laptoppara" class="item">A laptop is a computer which is easy to carry around. A modern laptop is self-contained, with a screen, keyboard and pointing device (like a touchpad), plus usually, speakers, a microphone and a camera.</p>
+    </div>
+</div>
+</body>
+</html>

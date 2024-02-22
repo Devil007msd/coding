@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors & more designing</title>
+    <style>
+.container{
+    border: 3px solid aquamarine;
+    padding: 33px;
+    margin: 33px auto;
+    width: 700px;
+}
+.btn{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(35, 203, 226);
+    border: 3px solid yellow;
+    padding: 11px 5px;
+    border-radius:34px;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+a.hover{
+    /* a.hover use to take arrow and its color changed */
+    color: hotpink;
+}
+a.visited{
+/* a.visited is use to click this line read more buttom and visit link */
+color: rgb(169, 126, 61);
+}
+.btn:hover{
+    /* change buttom background color */
+    color: red;
+    background-color: yellow;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container" id="cont">
+        <h3>This is heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur <span>Read</span>adipisicing elit. Quisquam amet officia nam, maxime magni impedit eligendi facere fuga. Laborum dicta nisi distinctio, nam culpa amet eos minima ipsum pariatur nemo incidunt officia?</p>
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+</html>
