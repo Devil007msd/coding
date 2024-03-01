@@ -1,6 +1,6 @@
- import java.util.Scanner;
-class Test
-{
+//  import java.util.Scanner;
+// class Test
+// {
 //     public static void main(String args[])
 //     {
 //         Scanner obj=new Scanner(System.in);
@@ -482,16 +482,3 @@ class Test
 //     System.out.println();
 //   }}
 //   }
-
-public static int Function(int n){
-  
-int a=n*n;
-System.out.println(a);
-return a;
-}
-public static void main(String[]args){
-  Scanner s=new Scanner(System.in);
-  
-  System.out.println(Function(10));
-}
-}

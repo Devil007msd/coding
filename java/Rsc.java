@@ -1,5 +1,5 @@
-import java.util.Scanner;
-public class Rsc {
+// import java.util.Scanner;
+// public class Rsc {
 //     public static void main(String args[]){
 //         int a[];
 //         a=new int[1];

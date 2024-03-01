@@ -8,7 +8,7 @@ public class dsa {
 //     }
 // }
 public static void main(String args[]){
-    Scanner  obj=new Scanner(System.in);
+    Scanner  obj =new Scanner(System.in);
     int n,digit,rev=0;
     System.out.println("Enter a number");
     n=obj.nextInt();
