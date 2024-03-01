@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 3px  solid wheat;
+            background-color: blueviolet;
+            height: 50000px;
+        }
+        .cont{
+            display: inline-block;
+            border: 3px solid aquamarine;
+            width: 100px;
+            height: 100px;
+            margin: 3px;
+            border-radius: 34px;
+        }
+        #box4{
+            /* position:absolute,static(default)sticky,relative,fixed */
+            /* relative is use to gap comes to its old position: ; */
+            /* absolute is use to not gap comes to its old position */
+            position: sticky;
+            /* position sticky is use to stay this place scroll */
+            /* position fixed the eleement relative to the browser window */
+            /* right: 3px; */
+            top: 4px;
+            /* bottom: 34px; */
+        
+            border-radius: 34px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="cont" id="box1">1</div>
+    <div class="cont" id="box2">2</div>
+    <div class="cont" id="box3">3</div>
+    <div class="cont" id="box4">This is ME</div></div>
+</body>
+</html>
