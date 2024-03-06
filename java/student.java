@@ -1,4 +1,4 @@
- class Demo {
+class Demo {
     private String name;
     private int roll;
     public void setName(String name){
